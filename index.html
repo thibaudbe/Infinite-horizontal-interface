@@ -1,0 +1,264 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>slide panel</title>
+
+<style type="text/css">
+
+body{ 
+	margin: 0;
+	text-align: center;
+	font-family: helvetica;
+	line-height:1;
+	color: #fff;
+	font-weight: lighter;
+}
+
+h1{
+	padding: 40px 0 0px;
+	margin: 0;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+p{
+	text-align: justify;
+	padding: 30px;
+}
+a, a:hover, a:active, a:focus{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+#navigation{
+	text-align: center;
+	overflow: hidden;
+	
+}
+	#navigation ul{
+		margin: 0 auto;
+		position: relative;
+		width: 75%;
+		max-width: 940px;
+		padding:0;
+	}
+		#navigation ul li{
+			float:left;
+			width: 33.33%;
+			margin: 20px 0 30px;
+			background-color: #8CCCEB;
+		}
+			#navigation ul li a{
+				padding: 20px 0;
+				display: block;
+				text-transform: uppercase;
+			}
+
+#home{
+	position:relative;
+	overflow-x:hidden;
+	width:100%;
+}
+	#rail{
+		position:relative;
+		left:0;
+		top:0;
+		width:100%;
+	}
+		.panel{
+			display:inline;
+			float:left;
+			width:100%;
+		}
+			.current .container{ 
+				_background:blue;
+			}
+		
+			.container{
+				width: 75%;
+				max-width: 940px;
+				margin: auto;
+				_border: 1px solid #000;
+				background-color: #8CCCEB;
+			}
+
+#footer{
+	text-align: center;
+	width: 75%;
+	max-width: 940px;
+	margin: 20px auto 0;
+	overflow: hidden;
+	background-color: #8CCCEB;
+}
+	#footer a{
+		padding: 20px 0;
+		display: block;
+	}
+
+</style>
+</head>
+<body>
+<header>
+  <nav id="navigation">
+    <ul>
+      <li><a href="#">#3 panel</a></li>
+      <li><a href="#">#1 panel</a></li>
+      <li><a href="#">#2 panel</a></li>
+      <!-- href="javascript:slidePanel();" -->
+      <!-- href="#" onclick="slidePanel();" -->
+    </ul>
+  </nav>
+</header>
+
+
+<div id="home">
+	<section id="rail">
+		<article class="panel current">
+			<div class="container">
+				<h1>#1 panel</h1>
+				<p>Sed placerat in lacus nascetur sed egestas rhoncus nec cras, elementum elit montes lectus. Lacus lectus augue mus, diam magnis? Facilisis tristique nisi placerat aenean tortor tristique nunc, scelerisque augue penatibus nec odio quis est ut! Rhoncus aliquam sed, lacus, integer nisi! Ultricies risus, proin, mus enim turpis porta augue! Natoque a dapibus ac. Turpis et, rhoncus urna tincidunt a! Nec tristique tristique ut pulvinar amet! Porta rhoncus mattis, sociis a magna. In cursus pellentesque sit magna! Dictumst nascetur nascetur, odio elementum tincidunt etiam nisi et cras eros nec augue, nunc amet nisi elementum! Enim pulvinar, ultrices amet parturient nisi. Est a dolor adipiscing et! Montes sed ac, mid sed in. Cursus porttitor mauris mus natoque augue! Nunc tincidunt aenean.
+				
+				<br /><br />Pulvinar tincidunt sociis odio, nascetur? Lectus elementum, ultricies cras! Cursus rhoncus aliquet eu rhoncus sed pulvinar facilisis, tincidunt in massa eros nunc aliquet! Sagittis urna, aliquet. Elit penatibus ac duis nec, odio pellentesque dapibus hac, montes aliquam scelerisque habitasse, vut cursus, porta habitasse enim aenean duis lundium magna in! Cursus! Sed dis nunc ac augue scelerisque augue lacus turpis? Hac in ac cum vel? Purus, turpis placerat ultricies, porttitor phasellus ut aliquam enim scelerisque urna pid dapibus? Aliquet, lectus enim elementum urna vut, mattis dapibus eu, placerat, aliquet aliquam. Sagittis cursus adipiscing ut egestas et, sed porttitor placerat lundium? Ut eu? Ac ac, rhoncus tempor est in lundium ut hac vut dis parturient cras diam arcu magnis sit rhoncus.</p>
+			</div>
+		</article>
+		<article class="panel">
+			<div class="container">
+				<h1>#2 panel</h1>
+				<p>Rhoncus a pellentesque? Enim pulvinar? Nec hac, lectus, lectus urna odio tincidunt, dolor in, ultrices nisi urna nunc, lundium dictumst augue nascetur magna, mid, eros! Purus sagittis egestas cum ultrices sociis ac. Auctor ac pulvinar nisi scelerisque etiam dapibus turpis nisi elementum? Magna, eu. Nisi enim ac cum, tempor? Ac porttitor turpis? In adipiscing? Placerat sit turpis ac ultricies risus quis mattis, sit! Lorem arcu scelerisque risus arcu urna facilisis augue sed et risus aliquet. Pulvinar tincidunt nascetur et penatibus, porta, urna aenean dictumst vut elementum sit tristique nec dictumst pid ut in pellentesque urna, dapibus a! Dis dictumst, pulvinar eros aenean mus enim aliquet. Pellentesque! Pulvinar et, nec odio nisi sed tempor eros, lorem. Lorem. Magna! Ut scelerisque lorem.</p>
+			</div>
+		</article>
+		<article class="panel">
+			<div class="container">
+				<h1>#3 panel</h1>
+				<p>Cum parturient etiam cursus nec mattis? Elit elementum parturient, facilisis? Porttitor arcu, vut mid! In dapibus scelerisque velit, eros magnis penatibus montes, lectus, ultricies lorem pulvinar mid, natoque, augue? Rhoncus! Amet risus hac montes platea diam urna ut. Egestas, nunc. Pellentesque a, duis, magna dolor vel magnis elementum! In ridiculus sagittis a tincidunt est lacus, porta, augue amet amet ac etiam nunc ultricies sociis? Nunc, vel sagittis tortor nascetur vel in ac! Aliquam a turpis integer. Pellentesque, et, cras non. Scelerisque pellentesque sociis hac? Montes et, etiam cum tincidunt parturient! Tincidunt velit mattis habitasse platea porttitor, tincidunt ut urna, dignissim nascetur porttitor non parturient odio ac aliquam proin? Duis nunc! Augue? Vut! Eu penatibus arcu a tincidunt dis, mauris magnis.
+				
+				<br /><br />Cursus turpis quis ultricies magna integer nisi magna eros diam nisi! Amet mattis dignissim? Natoque, ultricies proin vut magnis? Dolor tempor magna augue, tristique pid diam habitasse tortor et? Proin adipiscing, porta amet porta placerat tortor tortor! Rhoncus. Ultricies! Pulvinar, risus, enim? Scelerisque quis augue ridiculus a, porttitor rhoncus. Penatibus habitasse porttitor sit, odio non, sit ultricies massa vut egestas odio? Ac pellentesque. Eu, placerat turpis dis velit tempor mus parturient. Facilisis cum integer habitasse ultricies elementum mauris aenean tortor penatibus nec, lorem cras, adipiscing in et tincidunt facilisis! Tristique vut sociis tincidunt, turpis ac aliquam parturient et integer, eu nisi dis tempor, ultricies! Est? Amet vel? Nec magna ultrices aliquam velit ridiculus, mattis, aenean! Scelerisque dapibus ultricies etiam.
+				
+				<br /><br />Dignissim ridiculus? Dis ac, nisi facilisis lorem! Vut dictumst, ridiculus lundium porta? Et ultricies! Et odio integer pid porttitor, vel est rhoncus cras velit dolor sit urna! Pellentesque risus placerat? Duis! Nisi quis etiam vut tortor porttitor ac facilisis, proin. Facilisis? Magna phasellus nunc aliquam tempor rhoncus a ac enim pellentesque porta cursus nunc! Cum a montes enim pid auctor facilisis nascetur tincidunt placerat augue, amet est, ac cursus, ut ut urna etiam. Hac purus! Enim ac vel habitasse enim! Pid habitasse! Scelerisque? Elementum aenean. Urna cum? Elementum. Enim tincidunt facilisis scelerisque porttitor turpis. Dolor. Mauris scelerisque quis, urna lundium urna et elementum in? Placerat eros pellentesque. Egestas enim mattis adipiscing eu scelerisque? Ac nisi mattis velit! Tempor pellentesque.</p>
+			</div>  
+		</article>
+
+	</section>
+</div>
+
+<div id="footer">
+	<a href="http://www.thibaudb.com/">Made by Thibaudb.com</a>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+	// Set the first panel before the last panel => to become in second and current place
+	$('#home .panel:first').before($('#home .panel:last'));
+	
+	// 
+	$('#home').animate({ height: $('.panel.current').outerHeight()});
+
+	$('#navigation li:first a').addClass('nav-prev');
+	$('#navigation li:last a').addClass('nav-next');
+	$('#navigation li:nth-child(2) a').addClass('nav-inactive');
+
+// Set the variables
+	var panelSpeed = 600,
+		navSpeedOut = 200,
+		navSpeedIn = 200,
+		navDelay = 200,
+		navLeftPos = '20%',
+		navRightPos = '-20%';
+
+	// RESPONSIVE PANELS
+	// Panels stay at there right place, #rail height auto resize height
+	$(window).bind("load resize", function(){
+
+		var item_width = $(window).outerWidth(),
+			left_value = item_width * (-1);
+
+		$('#home .panel').css({'width' : item_width});
+		$('#home #rail').css({'left' : left_value, 'width' : (item_width * 3)});
+		
+		$('#home:not(:animated)').css({ height: $('.panel.current').outerHeight() + 0 + "px" });
+
+		// NAVIGATION
+		$('#navigation a').click(function() {
+			if ($(this).hasClass('nav-prev')) {
+				navPrev();
+			};
+			if ($(this).hasClass('nav-next')) {
+				navNext();
+			};
+			return false; 
+		});
+	});
+
+// if you want to go right 
+	function navPrev() {
+	// get the total with & position in the center of the rail 
+		var left_indent = parseInt($('#home #rail').css('left')) + $(window).outerWidth();
+
+		// Navigation animation
+		$('#navigation ul:not(:animated)').animate({'left' : navLeftPos, opacity : 0}, navSpeedOut, function() {
+			$('#navigation ul').css({'left' : navRightPos});
+			$('#navigation li:first').before($('#navigation li:last'));
+			rightPlaceNav();
+			$('#navigation ul:not(:animated)').delay(navDelay).animate({'left' : '0%', opacity : 1}, navSpeedIn);
+		});
+
+		// detect the current panel for animation
+		$('#home .panel').removeClass('current');
+		$('#home .panel:first').addClass('current');
+		currentPanel();
+
+		// Panels animation
+		$('#home #rail:not(:animated)').animate({'left' : left_indent}, panelSpeed, function(){    
+			$('#home .panel:first').before($('#home .panel:last'));           
+			$('#home #rail').css({'left' : ($(window).outerWidth() * (-1))});
+		});
+	};
+
+// if you want to go left 
+	function navNext() {
+		var left_indent = parseInt($('#home #rail').css('left')) - $(window).outerWidth();
+		
+		//
+		$('#navigation ul:not(:animated)').animate({'left' : navRightPos, opacity : 0}, navSpeedOut, function() {
+			$('#navigation ul').css({'left' : navLeftPos});
+			$('#navigation li:last').after($('#navigation li:first'));
+			rightPlaceNav();
+			$('#navigation ul:not(:animated)').delay(navDelay).animate({'left' : '0%', opacity : 1}, navSpeedIn);
+		});
+				
+		//
+		$('#home .panel').removeClass('current');
+		$('#home .panel:last').addClass('current');
+		currentPanel();
+		
+		//
+		$('#home #rail:not(:animated)').animate({'left' : left_indent}, panelSpeed, function () {
+			$('#home .panel:last').after($('#home .panel:first'));                 	
+			$('#home #rail').css({'left' : ($(window).outerWidth() * (-1))});
+		});
+	};
+
+// auto resize #rail height => overflow:hidden
+	function currentPanel() {
+		$('#home:not(:animated)').animate({ height: $('.panel.current').outerHeight() + 0 + "px" }, navSpeedOut);
+	};
+
+// The active nav is always between the 2 others.
+	function rightPlaceNav() {
+		$('#navigation li a').removeClass();
+		$('#navigation li:first a').addClass('nav-prev');
+		$('#navigation li:last a').addClass('nav-next');
+		$('#navigation li:nth-child(2) a').addClass('nav-inactive');
+	};
+
+
+});
+</script>
+</body>
+</html>
